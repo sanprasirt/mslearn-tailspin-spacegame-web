@@ -42,7 +42,7 @@ steps:
       projects: "**/*.csproj"
   - task: DotNetCoreCLI@2
     displayName: "Build Project - Release"
-    intputs:
+    inputs:
       command: "build"
       arguments: "--no-restore --configuration Release"
       projects: "**/*.csproj"
